@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "bunnies": "echo \"Bunnies like to hop\""
+    "bunnies": "echo \"Bunnies like to hop\"",
+    "guineapigs": "echo \"Guinea pigs don't hop as much\""
   },
   "keywords": [],
   "author": "",
