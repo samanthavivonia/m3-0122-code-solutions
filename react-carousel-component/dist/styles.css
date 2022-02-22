@@ -1,0 +1,39 @@
+body {
+  box-sizing: border-box;
+}
+
+.carousel {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  border: rgb(208, 208, 208) 2px solid;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.arrows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrows i {
+  font-size: 2rem;
+  color: rgb(208, 208, 208);
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  color: rgb(208, 208, 208);
+}
+
+.arrows i:hover, .dots i:hover {
+  color: black;
+  transition: 200ms;
+}
+
+.carousel img {
+  transition: 200ms;
+}
